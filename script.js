@@ -1,7 +1,24 @@
-var currentDay = document.getElementById("#currentDay");
+//updating clock/calander
+var currentTime = moment().format("dddd, MMMM Do"),
+    HH = moment().format("HH");
+
+$("#currentDay").html(currentTime);
+
+
 
 
 
 
 //LOCAL STORAGE ROUGH IDEA
-//document.getElementById("MyScore").innerHTML = "Your Final Score is: " + finalCountdown.toString();
+
+//pull over the textarea element
+$("i").click(function()  {
+    var saving = $(this).attr("id") + "t";
+    var saveInfo = document.getElementById(saving).value
+    localStorage.setItem(saving, saveInfo);
+});
+
+
+
+
+
