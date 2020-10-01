@@ -6,7 +6,7 @@ body {
 }
 
 textarea{
-  background: lightgrey;
+  background: lightpink;
   border: none;
   resize: none;
   color: #000000;
@@ -49,17 +49,17 @@ textarea{
 
 .past {
   background-color: #d3d3d3;
-  color: white;
+  color: red;
 }
 
 .present {
   background-color: #ff6961;
-  color: white;
+  color: green;
 }
 
 .future {
   background-color: #77dd77;
-  color: white;
+  color: yellow;
 }
 
 .saveButton {
@@ -71,6 +71,6 @@ textarea{
 }
 
 .saveButton i:hover {
-  font-size: 20px;
+  font-size: 30px;
   transition: all .3s ease-in-out;
 }
